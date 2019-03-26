@@ -6,7 +6,7 @@ module Wdiff
     end
 
     def verify_wdiff_in_path
-      path = %x{which #{bin_path}}
+      path = '/app/vendor/usr/bin'
       raise "GNU wdiff (http://www.gnu.org/software/wdiff/) not found in $PATH" if path.empty?
     end
 
