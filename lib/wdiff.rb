@@ -11,7 +11,7 @@ module Wdiff
     end
 
     def bin_path
-      '/app/usr/local/bin/wdiff'
+      '/app/vendor/usr/bin/wdiff'
     end
 
     # TODO - this will fail if option strings include quotes, need to escape quotes automagically
